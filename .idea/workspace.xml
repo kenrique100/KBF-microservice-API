@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/Transaction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="updated commit">
+      <change beforePath="$PROJECT_DIR$/investment-service" beforeDir="false" afterPath="$PROJECT_DIR$/investment-service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-1" />
+        <entry key="$PROJECT_DIR$/investment-service" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -67,6 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,8 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvestmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="investment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akentech.kbf.investment.InvestmentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ExpenseServiceApplication" />
+        <item itemvalue="JUnit.ExpenseControllerIntegrationTest" />
+        <item itemvalue="Spring Boot.ExpenseServiceApplication" />
         <item itemvalue="JUnit.ExpenseControllerIntegrationTest" />
         <item itemvalue="Spring Boot.ExpenseServiceApplication" />
       </list>
@@ -132,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740352769731</updated>
       <workItem from="1740352771234" duration="2622000" />
-      <workItem from="1740379563687" duration="6438000" />
+      <workItem from="1740379563687" duration="10190000" />
     </task>
     <task id="LOCAL-00001" summary="created properties">
       <option name="closed" value="true" />
@@ -238,7 +257,55 @@
       <option name="project" value="LOCAL" />
       <updated>1740385156136</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1740387763321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740387763321</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1740387767219</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740387767220</updated>
+    </task>
+    <task id="LOCAL-00016" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1740387772859</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740387772859</updated>
+    </task>
+    <task id="LOCAL-00017" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1740389579006</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740389579006</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated commit">
+      <option name="closed" value="true" />
+      <created>1740390418317</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740390418318</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated commit">
+      <option name="closed" value="true" />
+      <created>1740390775612</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740390775612</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +324,8 @@
     <MESSAGE value="utils class for logs infos" />
     <MESSAGE value="Tests cases initialized and validated" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="updated commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated commit" />
   </component>
 </project>

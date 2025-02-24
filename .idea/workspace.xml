@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/expense-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/controller/ExpenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/exception/CustomExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/exception/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/exception/ExpenseNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/model/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/repository/ExpenseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/service/ExpenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/service/impl/ExpenseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/utils/LoggingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/microservices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/ExpenseServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/microservices/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/ExpenseControllerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/ExpenseServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/TestContainersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/TestExpenseServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +37,9 @@
     "accountId": "23b45460-5d6a-4f7a-8e01-14819707aeea"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -64,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.All in income-service.executor": "Run",
+    "JUnit.ExpenseControllerIntegrationTest.executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,7 +68,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ExpenseServiceApplication">
+  <component name="RunManager" selected="JUnit.ExpenseControllerIntegrationTest">
+    <configuration name="ExpenseControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expense-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akentech.kbf.expense.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akentech.kbf.expense" />
+      <option name="MAIN_CLASS_NAME" value="com.akentech.kbf.expense.ExpenseControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExpenseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="expense-service" />
@@ -105,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpenseControllerIntegrationTest" />
         <item itemvalue="Spring Boot.ExpenseServiceApplication" />
       </list>
     </recent_temporary>
@@ -126,11 +130,114 @@
       <option name="presentableId" value="Default" />
       <updated>1740352769731</updated>
       <workItem from="1740352771234" duration="2622000" />
-      <workItem from="1740379563687" duration="3221000" />
+      <workItem from="1740379563687" duration="5362000" />
     </task>
+    <task id="LOCAL-00001" summary="created properties">
+      <option name="closed" value="true" />
+      <created>1740383449195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383449195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="exception handlers">
+      <option name="closed" value="true" />
+      <created>1740383484629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383484629</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docker setups">
+      <option name="closed" value="true" />
+      <created>1740383496736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383496736</updated>
+    </task>
+    <task id="LOCAL-00004" summary="models">
+      <option name="closed" value="true" />
+      <created>1740383511947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383511947</updated>
+    </task>
+    <task id="LOCAL-00005" summary="valid controllers created">
+      <option name="closed" value="true" />
+      <created>1740383527128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383527128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="findbyId method created for mongoDb">
+      <option name="closed" value="true" />
+      <created>1740383548477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383548477</updated>
+    </task>
+    <task id="LOCAL-00007" summary="valid services for methods to b implemented">
+      <option name="closed" value="true" />
+      <created>1740383566899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383566899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Main app">
+      <option name="closed" value="true" />
+      <created>1740383577563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383577563</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implementations and logics">
+      <option name="closed" value="true" />
+      <created>1740383594813</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383594813</updated>
+    </task>
+    <task id="LOCAL-00010" summary="utils class for logs infos">
+      <option name="closed" value="true" />
+      <created>1740383608288</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383608288</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated">
+      <option name="closed" value="true" />
+      <created>1740383615267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740383615267</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created properties" />
+    <MESSAGE value="exception handlers" />
+    <MESSAGE value="docker setups" />
+    <MESSAGE value="models" />
+    <MESSAGE value="valid controllers created" />
+    <MESSAGE value="findbyId method created for mongoDb" />
+    <MESSAGE value="valid services for methods to b implemented" />
+    <MESSAGE value="Main app" />
+    <MESSAGE value="Implementations and logics" />
+    <MESSAGE value="utils class for logs infos" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>

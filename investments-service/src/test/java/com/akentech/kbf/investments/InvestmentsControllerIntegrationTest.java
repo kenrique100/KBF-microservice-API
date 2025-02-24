@@ -1,6 +1,8 @@
 package com.akentech.kbf.investments;
 
 import com.akentech.kbf.investments.model.Investment;
+import com.akentech.kbf.investments.model.InvestmentRequest;
+import com.akentech.kbf.investments.model.UpdateInvestmentRequest;
 import com.akentech.kbf.investments.repository.InvestmentRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,9 +16,9 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import org.testcontainers.containers.MongoDBContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
-import java.time.LocalDate;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Testcontainers
@@ -49,22 +51,35 @@ class InvestmentsControllerIntegrationTest {
         investmentRepository.deleteAll().block();
     }
 
+
     @Test
     void testCreateInvestment() {
+        // Create an initial investment
+        Investment initialInvestment = Investment.builder()
+                .initialAmount(BigDecimal.valueOf(1000))
+                .currentBalance(BigDecimal.valueOf(1000))
+                .createdBy("JohnDoe")
+                .createdAt(LocalDate.now())
+                .updatedAt(LocalDate.now())
+                .build();
+        investmentRepository.save(initialInvestment).block();
+
+        // Create a new investment
         webTestClient.post()
-                .uri("/api/investments?initialAmount=1000&createdBy=JohnDoe")
+                .uri("/api/investments")
+                .bodyValue(new InvestmentRequest(BigDecimal.valueOf(500), "JaneDoe"))
                 .exchange()
                 .expectStatus().isCreated()
                 .expectBody()
-                .jsonPath("$.initialAmount").isEqualTo(1000)
-                .jsonPath("$.currentBalance").isEqualTo(1000)
-                .jsonPath("$.createdBy").isEqualTo("JohnDoe");
+                .jsonPath("$.initialAmount").isEqualTo(500)
+                .jsonPath("$.currentBalance").isEqualTo(500) // Current balance should equal initial amount
+                .jsonPath("$.createdBy").isEqualTo("JaneDoe");
     }
-
     @Test
     void testCreateInvestmentWithInvalidData() {
         webTestClient.post()
-                .uri("/api/investments?initialAmount=0&createdBy=")
+                .uri("/api/investments")
+                .bodyValue(new InvestmentRequest(BigDecimal.ZERO, "")) // Invalid data
                 .exchange()
                 .expectStatus().isBadRequest();
     }
@@ -113,7 +128,8 @@ class InvestmentsControllerIntegrationTest {
 
         assert savedInvestment != null;
         webTestClient.put()
-                .uri("/api/investments/" + savedInvestment.getId() + "?newAmount=1500")
+                .uri("/api/investments/" + savedInvestment.getId())
+                .bodyValue(new UpdateInvestmentRequest(BigDecimal.valueOf(1500)))
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody()
@@ -123,7 +139,8 @@ class InvestmentsControllerIntegrationTest {
     @Test
     void testUpdateInvestmentWithInvalidData() {
         webTestClient.put()
-                .uri("/api/investments/invalid-id?newAmount=0")
+                .uri("/api/investments/invalid-id")
+                .bodyValue(new UpdateInvestmentRequest(BigDecimal.ZERO)) // Invalid data
                 .exchange()
                 .expectStatus().isBadRequest();
     }
@@ -167,7 +184,8 @@ class InvestmentsControllerIntegrationTest {
 
         assert savedInvestment != null;
         webTestClient.put()
-                .uri("/api/investments/" + savedInvestment.getId() + "/deduct?amount=500")
+                .uri("/api/investments/" + savedInvestment.getId() + "/deduct")
+                .bodyValue(new UpdateInvestmentRequest(BigDecimal.valueOf(500)))
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody()
@@ -187,7 +205,8 @@ class InvestmentsControllerIntegrationTest {
 
         assert savedInvestment != null;
         webTestClient.put()
-                .uri("/api/investments/" + savedInvestment.getId() + "/deduct?amount=1500")
+                .uri("/api/investments/" + savedInvestment.getId() + "/deduct")
+                .bodyValue(new UpdateInvestmentRequest(BigDecimal.valueOf(1500)))
                 .exchange()
                 .expectStatus().isBadRequest();
     }
@@ -205,7 +224,8 @@ class InvestmentsControllerIntegrationTest {
 
         assert savedInvestment != null;
         webTestClient.put()
-                .uri("/api/investments/" + savedInvestment.getId() + "/add?amount=500")
+                .uri("/api/investments/" + savedInvestment.getId() + "/add")
+                .bodyValue(new UpdateInvestmentRequest(BigDecimal.valueOf(500)))
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody()
@@ -215,7 +235,8 @@ class InvestmentsControllerIntegrationTest {
     @Test
     void testAddToInvestmentWithInvalidData() {
         webTestClient.put()
-                .uri("/api/investments/invalid-id/add?amount=0")
+                .uri("/api/investments/invalid-id/add")
+                .bodyValue(new UpdateInvestmentRequest(BigDecimal.ZERO)) // Invalid data
                 .exchange()
                 .expectStatus().isBadRequest();
     }

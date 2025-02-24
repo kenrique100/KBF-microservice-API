@@ -15,14 +15,16 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="expense-service" />
         <module name="income-service" />
+        <module name="expense-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="expense-service (1)" target="21" />
       <module name="income-service (1)" target="21" />
+      <module name="investment-service" target="21" />
       <module name="Transaction-service" target="21" />
       <module name="transaction-service" target="21" />
     </bytecodeTargetLevel>

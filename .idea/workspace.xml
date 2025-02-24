@@ -5,15 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/income-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/controller/ExpenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/exception/ExpenseNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/model/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/repository/ExpenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/service/ExpenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/service/impl/ExpenseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/utils/LoggingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/microservices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/src/main/java/com/akentech/kbf/expense/ExpenseServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/microservices/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/income-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -21,12 +47,12 @@
     &quot;assignee&quot;: &quot;kenrique100&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kenrique100/KBF-income-service.git&quot;,
-    &quot;accountId&quot;: &quot;23b45460-5d6a-4f7a-8e01-14819707aeea&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kenrique100/KBF-microservice-API.git",
+    "accountId": "23b45460-5d6a-4f7a-8e01-14819707aeea"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -35,42 +61,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in income-service.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kenrique/Desktop/my apps/microservices&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in income-service.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ExpenseServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/kenrique/Desktop/my apps/microservices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.IncomeControllerIntegrationTest.testCreateIncome">
-    <configuration name="All in income-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="income-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncomeControllerIntegrationTest.testCreateIncome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="income-service" />
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.ExpenseServiceApplication">
+    <configuration name="ExpenseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="expense-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akentech.kbf.expense.ExpenseServiceApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akentech.kbf.income.*" />
+          <option name="PATTERN" value="com.akentech.kbf.expense.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.akentech.kbf.income" />
-      <option name="MAIN_CLASS_NAME" value="com.akentech.kbf.income.IncomeControllerIntegrationTest" />
-      <option name="METHOD_NAME" value="testCreateIncome" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,8 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IncomeControllerIntegrationTest.testCreateIncome" />
-        <item itemvalue="JUnit.All in income-service" />
+        <item itemvalue="Spring Boot.ExpenseServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740352769731</updated>
       <workItem from="1740352771234" duration="2622000" />
+      <workItem from="1740379563687" duration="3221000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,15 @@
+services:
+  income-service:
+    image: akentech/expense-service:latest
+    container_name: expense-service
+    restart: always
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb+srv://akentech:Bundes9898@cluster1.ftk04.mongodb.net/expense-service?retryWrites=true&w=majority&appName=Cluster1
+      SPRING_PROFILES_ACTIVE: prod
+    ports:
+      - "8082:8080"
+    networks:
+      - kbf
+networks:
+  kbf:
+    driver: bridge

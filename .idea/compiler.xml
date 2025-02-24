@@ -35,7 +35,6 @@
       <module name="income-service (1)" target="21" />
       <module name="investment-service" target="21" />
       <module name="Transaction-service" target="21" />
-      <module name="transaction-service" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

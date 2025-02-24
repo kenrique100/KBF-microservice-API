@@ -1,0 +1,16 @@
+services:
+  income-service:
+    image: akentech/transaction-service:latest
+    container_name: transaction-service
+    restart: always
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb+srv://akentech:Bundes9898@cluster1.ftk04.mongodb.net/transaction-service?retryWrites=true&w=majority&appName=Cluster1
+      SPRING_PROFILES_ACTIVE: prod
+    ports:
+      - "8084:8080"
+    networks:
+      - kbf
+
+networks:
+  kbf:
+    driver: bridge

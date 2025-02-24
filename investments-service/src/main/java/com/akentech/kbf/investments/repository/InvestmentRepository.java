@@ -6,4 +6,5 @@ import reactor.core.publisher.Mono;
 
 public interface InvestmentRepository extends ReactiveMongoRepository<Investment, String> {
     Mono<Investment> findByCreatedBy(String createdBy);
+    Mono<Investment> findFirstByOrderByCreatedAtDesc();
 }

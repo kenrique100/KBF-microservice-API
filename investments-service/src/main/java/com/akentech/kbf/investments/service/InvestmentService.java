@@ -14,4 +14,6 @@ public interface InvestmentService {
     Mono<Void> deleteInvestment(String id);
     Mono<Investment> deductFromInvestment(String id, BigDecimal amount);
     Mono<Investment> addToInvestment(String id, BigDecimal amount);
+    Mono<BigDecimal> getTotalInitialAmount();
+    Mono<BigDecimal> getTotalCurrentBalance();
 }

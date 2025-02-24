@@ -1,0 +1,16 @@
+services:
+  income-service:
+    image: akentech/investments-service:latest
+    container_name: investments-service
+    restart: always
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb+srv://akentech:Bundes9898@cluster1.ftk04.mongodb.net/investments-service?retryWrites=true&w=majority&appName=Cluster1
+      SPRING_PROFILES_ACTIVE: prod
+    ports:
+      - "8083:8080"
+    networks:
+      - kbf
+
+networks:
+  kbf:
+    driver: bridge

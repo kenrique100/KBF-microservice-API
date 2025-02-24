@@ -20,6 +20,15 @@
         <module name="income-service" />
         <module name="expense-service" />
       </profile>
+      <profile name="Annotation profile for investments-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="investments-service" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="expense-service (1)" target="21" />
@@ -35,6 +44,7 @@
       <module name="expense-service" options="-parameters" />
       <module name="income-service" options="-parameters" />
       <module name="investment-service" options="-parameters" />
+      <module name="investments-service" options="-parameters" />
       <module name="kbf-microservices" options="-parameters" />
       <module name="transaction-service" options="-parameters" />
     </option>

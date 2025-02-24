@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="updated commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/config/MongoDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/controller/InvestmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/exception/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/exception/InvalidRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/model/Investment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/repository/InvestmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/service/InvestmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/service/impl/InvestmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/utils/LoggingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/test/java/com/akentech/kbf/investments/InvestmentsControllerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/test/java/com/akentech/kbf/investments/InvestmentsServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/test/java/com/akentech/kbf/investments/TestContainersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investments-service/src/test/java/com/akentech/kbf/investments/TestInvestmentsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/income-service/target/income-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/income-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -58,32 +78,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in income-service.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExpenseControllerIntegrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
-    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ExpenseServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kenrique/Desktop/my apps/microservices&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in income-service.executor": "Run",
+    "JUnit.ExpenseControllerIntegrationTest.executor": "Run",
+    "JUnit.InvestmentsControllerIntegrationTest.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ExpenseServiceApplication.executor": "Run",
+    "Spring Boot.InvestmentsServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/kenrique/Desktop/my apps/microservices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.InvestmentsControllerIntegrationTest.testDeleteInvestmentWithInvalidId">
+    <configuration name="InvestmentsControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="investments-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akentech.kbf.investments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akentech.kbf.investments" />
+      <option name="MAIN_CLASS_NAME" value="com.akentech.kbf.investments.InvestmentsControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvestmentsControllerIntegrationTest.testDeleteInvestmentWithInvalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="investments-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akentech.kbf.investments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akentech.kbf.investments" />
+      <option name="MAIN_CLASS_NAME" value="com.akentech.kbf.investments.InvestmentsControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testDeleteInvestmentWithInvalidId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExpenseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="expense-service" />
@@ -98,11 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvestmentsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="investments-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akentech.kbf.investments.InvestmentsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvestmentsControllerIntegrationTest.testDeleteInvestmentWithInvalidId" />
+        <item itemvalue="JUnit.InvestmentsControllerIntegrationTest" />
         <item itemvalue="Spring Boot.ExpenseServiceApplication" />
         <item itemvalue="Spring Boot.ExpenseServiceApplication" />
-        <item itemvalue="JUnit.ExpenseControllerIntegrationTest" />
         <item itemvalue="Spring Boot.ExpenseServiceApplication" />
       </list>
     </recent_temporary>
@@ -126,6 +188,7 @@
       <workItem from="1740352771234" duration="2622000" />
       <workItem from="1740379563687" duration="10190000" />
       <workItem from="1740391534893" duration="636000" />
+      <workItem from="1740393572947" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="created properties">
       <option name="closed" value="true" />

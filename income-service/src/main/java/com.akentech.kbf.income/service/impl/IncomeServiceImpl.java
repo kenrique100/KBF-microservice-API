@@ -105,6 +105,4 @@ public class IncomeServiceImpl implements IncomeService {
                     return incomeRepository.deleteById(id);
                 });
     }
-
-
 }

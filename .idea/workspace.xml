@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/ExpenseControllerIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/ExpenseServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/TestContainersConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-service/src/test/java/com/akentech/kbf/expense/TestExpenseServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,10 @@
     "JUnit.ExpenseControllerIntegrationTest.executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.ExpenseServiceApplication.executor": "Run",
@@ -130,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740352769731</updated>
       <workItem from="1740352771234" duration="2622000" />
-      <workItem from="1740379563687" duration="5362000" />
+      <workItem from="1740379563687" duration="6438000" />
     </task>
     <task id="LOCAL-00001" summary="created properties">
       <option name="closed" value="true" />
@@ -220,7 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740383615267</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tests cases initialized and validated">
+      <option name="closed" value="true" />
+      <created>1740385128374</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740385128374</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updated">
+      <option name="closed" value="true" />
+      <created>1740385156136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740385156136</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +255,7 @@
     <MESSAGE value="Main app" />
     <MESSAGE value="Implementations and logics" />
     <MESSAGE value="utils class for logs infos" />
+    <MESSAGE value="Tests cases initialized and validated" />
     <MESSAGE value="updated" />
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>

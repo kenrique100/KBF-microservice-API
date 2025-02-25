@@ -1,5 +1,5 @@
 services:
-  income-service:
+  transaction-service:
     image: akentech/transaction-service:latest
     container_name: transaction-service
     restart: always

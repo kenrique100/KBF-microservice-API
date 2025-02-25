@@ -89,16 +89,17 @@ public class TransactionServiceImpl implements TransactionService {
                                         .reduce(BigDecimal.ZERO, BigDecimal::add);
 
 
-                                BigDecimal netGainLoss = totalIncome.subtract(totalExpense).subtract(totalInvestment);
-                                BigDecimal netGain = netGainLoss.compareTo(BigDecimal.ZERO) > 0 ? netGainLoss : BigDecimal.ZERO;
-                                BigDecimal netLoss = netGainLoss.compareTo(BigDecimal.ZERO) < 0 ? netGainLoss.abs() : BigDecimal.ZERO;
+                                BigDecimal netProfitLoss = totalInvestment.subtract(totalIncome).subtract(totalExpense);
+                                BigDecimal netProfit = netProfitLoss.signum() > 0 ? netProfitLoss : BigDecimal.ZERO;
+                                BigDecimal netLoss = netProfitLoss.signum() < 0 ? netProfitLoss.abs() : BigDecimal.ZERO;
+
 
                                 return Mono.just(new DashboardReportDTO(
                                         savedTransactions,
                                         totalIncome,
                                         totalExpense,
                                         totalInvestment,
-                                        netGain,
+                                        netProfit,
                                         netLoss
                                 ));
                             });

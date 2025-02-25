@@ -16,7 +16,7 @@ public class DashboardReportDTO {
     private BigDecimal totalIncome;
     private BigDecimal totalExpense;
     private BigDecimal totalInvestment;
-    private BigDecimal netGain;
+    private BigDecimal netProfit;
     private BigDecimal netLoss;
 
 }

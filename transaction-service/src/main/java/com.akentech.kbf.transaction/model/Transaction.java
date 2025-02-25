@@ -16,8 +16,8 @@ import java.time.LocalDate;
 public class Transaction {
     @Id
     private String id;
-    private String type; // INCOME, EXPENSE, INVESTMENT
-    private String referenceId; // ID of the income, expense, or investment
+    private String type;
+    private String referenceId;
     private LocalDate transactionDate;
     private BigDecimal amount;
     private String createdBy;

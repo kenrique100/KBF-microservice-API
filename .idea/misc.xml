@@ -10,7 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Transaction-service/pom.xml" />
-        <option value="$PROJECT_DIR$/transaction-service/pom.xml" />
+        <option value="$PROJECT_DIR$/feignclient/pom.xml" />
       </set>
     </option>
   </component>

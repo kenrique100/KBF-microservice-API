@@ -5,21 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fda750b-9b84-4837-8039-9b09433dc082" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/model/InvestmentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/model/UpdateInvestmentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/utils/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/exception/TransactionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/model/dto/DashboardReportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/repository/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/service/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/service/impl/TransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/controller/InvestmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/controller/InvestmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/repository/InvestmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/repository/InvestmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/service/InvestmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/service/InvestmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/service/impl/InvestmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/service/impl/InvestmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/src/main/java/com/akentech/kbf/investments/utils/LoggingUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/src/test/java/com/akentech/kbf/investments/InvestmentsControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/src/test/java/com/akentech/kbf/investments/InvestmentsControllerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/controller/InvestmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/controller/InvestmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/repository/InvestmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/repository/InvestmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/service/InvestmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/service/InvestmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/service/impl/InvestmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/classes/com/akentech/kbf/investments/service/impl/InvestmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments-service/target/test-classes/com/akentech/kbf/investments/InvestmentsControllerIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/test-classes/com/akentech/kbf/investments/InvestmentsControllerIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/controller/ExpenseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/controller/ExpenseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/exception/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/exception/ErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/model/Expense$ExpenseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/model/Expense$ExpenseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/model/Expense.class" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/model/Expense.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/service/impl/ExpenseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/classes/com/akentech/kbf/expense/service/impl/ExpenseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/expense-service/target/expense-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/controller/IncomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/controller/IncomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/exception/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/exception/ErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/model/Income$IncomeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/model/Income$IncomeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/model/Income.class" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/model/Income.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/service/impl/IncomeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/classes/com/akentech/kbf/income/service/impl/IncomeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/income-service/target/income-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/income-service/target/income-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investments-service/target/investments-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/investments-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/investments-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/com/akentech/kbf/transaction/TransactionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction/TransactionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev-1" />
+        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$/investment-service" value="master" />
       </map>
     </option>
@@ -85,8 +104,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.ExpenseServiceApplication.executor": "Run",
+    "Spring Boot.IncomeServiceApplication.executor": "Run",
     "Spring Boot.InvestmentsServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "Spring Boot.TransactionServiceApplication.executor": "Run",
+    "git-widget-placeholder": "dev-1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/kenrique/Desktop/my apps/microservices",
     "node.js.detected.package.eslint": "true",
@@ -102,8 +123,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.akentech.kbf.investments.model" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transaction-service/src/main/java/com.akentech.kbf.transaction" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvestmentsControllerIntegrationTest">
+  <component name="RunManager" selected="Spring Boot.TransactionServiceApplication">
     <configuration name="InvestmentsControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="investments-service" />
       <extension name="coverage">
@@ -181,6 +205,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncomeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="income-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akentech.kbf.income.IncomeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InvestmentsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="investments-service" />
@@ -189,13 +221,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="transaction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akentech.kbf.transaction.TransactionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ExpenseServiceApplication" />
         <item itemvalue="JUnit.InvestmentsControllerIntegrationTest" />
         <item itemvalue="JUnit.InvestmentsControllerIntegrationTest.testCreateInvestment" />
         <item itemvalue="JUnit.InvestmentsControllerIntegrationTest.testDeleteInvestment" />
         <item itemvalue="JUnit.InvestmentsControllerIntegrationTest.testDeleteInvestmentWithInvalidId" />
-        <item itemvalue="Spring Boot.ExpenseServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -219,55 +259,8 @@
       <workItem from="1740379563687" duration="10190000" />
       <workItem from="1740391534893" duration="636000" />
       <workItem from="1740393572947" duration="5382000" />
-      <workItem from="1740399794263" duration="6687000" />
-    </task>
-    <task id="LOCAL-00001" summary="created properties">
-      <option name="closed" value="true" />
-      <created>1740383449195</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740383449195</updated>
-    </task>
-    <task id="LOCAL-00002" summary="exception handlers">
-      <option name="closed" value="true" />
-      <created>1740383484629</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740383484629</updated>
-    </task>
-    <task id="LOCAL-00003" summary="docker setups">
-      <option name="closed" value="true" />
-      <created>1740383496736</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740383496736</updated>
-    </task>
-    <task id="LOCAL-00004" summary="models">
-      <option name="closed" value="true" />
-      <created>1740383511947</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1740383511947</updated>
-    </task>
-    <task id="LOCAL-00005" summary="valid controllers created">
-      <option name="closed" value="true" />
-      <created>1740383527128</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1740383527128</updated>
-    </task>
-    <task id="LOCAL-00006" summary="findbyId method created for mongoDb">
-      <option name="closed" value="true" />
-      <created>1740383548477</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1740383548477</updated>
+      <workItem from="1740399794263" duration="11689000" />
+      <workItem from="1740468476598" duration="7182000" />
     </task>
     <task id="LOCAL-00007" summary="valid services for methods to b implemented">
       <option name="closed" value="true" />
@@ -509,37 +502,189 @@
       <option name="project" value="LOCAL" />
       <updated>1740396912649</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="removed logs">
+      <option name="closed" value="true" />
+      <created>1740407440103</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407440104</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added new method">
+      <option name="closed" value="true" />
+      <created>1740407452360</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407452360</updated>
+    </task>
+    <task id="LOCAL-00039" summary="refactor tests">
+      <option name="closed" value="true" />
+      <created>1740407469529</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407469529</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added for json req">
+      <option name="closed" value="true" />
+      <created>1740407487609</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407487609</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added new services">
+      <option name="closed" value="true" />
+      <created>1740407498045</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407498045</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added new services">
+      <option name="closed" value="true" />
+      <created>1740407507858</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407507858</updated>
+    </task>
+    <task id="LOCAL-00043" summary="implemented new services">
+      <option name="closed" value="true" />
+      <created>1740407519295</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407519295</updated>
+    </task>
+    <task id="LOCAL-00044" summary="new validation util class">
+      <option name="closed" value="true" />
+      <created>1740407535291</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407535291</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added for update for json">
+      <option name="closed" value="true" />
+      <created>1740407547286</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407547286</updated>
+    </task>
+    <task id="LOCAL-00046" summary="updated configs">
+      <option name="closed" value="true" />
+      <created>1740407566842</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407566843</updated>
+    </task>
+    <task id="LOCAL-00047" summary="removed excess logs">
+      <option name="closed" value="true" />
+      <created>1740407678439</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407678439</updated>
+    </task>
+    <task id="LOCAL-00048" summary="removed excess logs">
+      <option name="closed" value="true" />
+      <created>1740407740864</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407740864</updated>
+    </task>
+    <task id="LOCAL-00049" summary="main app">
+      <option name="closed" value="true" />
+      <created>1740410125155</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410125155</updated>
+    </task>
+    <task id="LOCAL-00050" summary="docker compose created">
+      <option name="closed" value="true" />
+      <created>1740410525028</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410525028</updated>
+    </task>
+    <task id="LOCAL-00051" summary="docker file created">
+      <option name="closed" value="true" />
+      <created>1740410537811</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410537811</updated>
+    </task>
+    <task id="LOCAL-00052" summary="updated pom">
+      <option name="closed" value="true" />
+      <created>1740410548323</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410548324</updated>
+    </task>
+    <task id="LOCAL-00053" summary="test containers configs">
+      <option name="closed" value="true" />
+      <created>1740410562404</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410562404</updated>
+    </task>
+    <task id="LOCAL-00054" summary="created and updated props">
+      <option name="closed" value="true" />
+      <created>1740410656477</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410656477</updated>
+    </task>
+    <task id="LOCAL-00055" summary="updates">
+      <option name="closed" value="true" />
+      <created>1740410666915</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410666915</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="valid controllers created" />
-    <MESSAGE value="findbyId method created for mongoDb" />
-    <MESSAGE value="valid services for methods to b implemented" />
-    <MESSAGE value="Main app" />
-    <MESSAGE value="Implementations and logics" />
-    <MESSAGE value="utils class for logs infos" />
-    <MESSAGE value="Tests cases initialized and validated" />
-    <MESSAGE value="updated" />
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="updated commit" />
-    <MESSAGE value="updated application.properties" />
-    <MESSAGE value="exception handlers" />
-    <MESSAGE value="docker files" />
-    <MESSAGE value="updated jar files" />
-    <MESSAGE value="models for investment requests" />
     <MESSAGE value="controllers for investment requests endpoints" />
     <MESSAGE value="methods for investment request" />
     <MESSAGE value="service layers and investment logics" />
     <MESSAGE value="util class" />
     <MESSAGE value="test configurations" />
-    <MESSAGE value="main app" />
     <MESSAGE value="mongoDb connection setup" />
     <MESSAGE value="full integration test for investment" />
     <MESSAGE value="updated pom files" />
+    <MESSAGE value="removed logs" />
+    <MESSAGE value="added new method" />
+    <MESSAGE value="refactor tests" />
+    <MESSAGE value="added for json req" />
+    <MESSAGE value="added new services" />
+    <MESSAGE value="implemented new services" />
+    <MESSAGE value="new validation util class" />
+    <MESSAGE value="added for update for json" />
+    <MESSAGE value="updated configs" />
+    <MESSAGE value="removed excess logs" />
+    <MESSAGE value="main app" />
+    <MESSAGE value="docker compose created" />
+    <MESSAGE value="docker file created" />
+    <MESSAGE value="updated pom" />
+    <MESSAGE value="test containers configs" />
+    <MESSAGE value="created and updated props" />
     <MESSAGE value="updates" />
     <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>

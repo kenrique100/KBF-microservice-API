@@ -1,10 +1,14 @@
 package com.akentech.kbf.transaction;
 
-import org.springframework.boot.SpringApplication;
-import org.testcontainers.utility.TestcontainersConfiguration;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
 
+@Import(TestContainersConfiguration.class)
+@SpringBootTest
 public class TransactionServiceApplicationTests {
-    public static void main(String[] args) {
-        SpringApplication.from(TransactionServiceApplication::main).with(TestcontainersConfiguration.class).run(args);
+
+    @Test
+    void contextLoads() {
     }
 }

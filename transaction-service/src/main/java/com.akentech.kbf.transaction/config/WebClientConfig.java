@@ -8,6 +8,11 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class WebClientConfig {
 
     @Bean
+    public WebClient.Builder webClientBuilder() {
+        return WebClient.builder();
+    }
+
+    @Bean
     public WebClient incomeWebClient(WebClient.Builder webClientBuilder) {
         return webClientBuilder.baseUrl("http://localhost:8081").build();
     }

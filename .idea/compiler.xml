@@ -17,6 +17,9 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="transaction-service" />
+        <module name="expense-service" />
+        <module name="investments-service" />
+        <module name="income-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

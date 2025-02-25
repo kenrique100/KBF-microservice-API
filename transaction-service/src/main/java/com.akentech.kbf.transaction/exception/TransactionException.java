@@ -11,5 +11,4 @@ public class TransactionException extends RuntimeException {
         super(message);
         this.status = status;
     }
-
 }

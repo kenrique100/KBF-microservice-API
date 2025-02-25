@@ -15,23 +15,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="income-service" />
-        <module name="expense-service" />
-      </profile>
-      <profile name="Annotation profile for investments-service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-        </processorPath>
-        <module name="investments-service" />
+        <module name="transaction-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="expense-service (1)" target="21" />
+      <module name="feignclient" target="21" />
       <module name="income-service (1)" target="21" />
       <module name="investment-service" target="21" />
       <module name="Transaction-service" target="21" />
@@ -41,6 +31,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Transaction-service" options="-parameters" />
       <module name="expense-service" options="-parameters" />
+      <module name="feignclient" options="-parameters" />
       <module name="income-service" options="-parameters" />
       <module name="investment-service" options="-parameters" />
       <module name="investments-service" options="-parameters" />

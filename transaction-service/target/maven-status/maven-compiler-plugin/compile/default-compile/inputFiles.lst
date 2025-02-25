@@ -1,0 +1,9 @@
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/config/WebClientConfig.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/model/dto/DashboardReportDTO.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/repository/TransactionRepository.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/exception/TransactionException.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/service/impl/TransactionServiceImpl.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/controller/TransactionController.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/model/Transaction.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/TransactionServiceApplication.java
+/home/kenrique/Desktop/my apps/kbf-microservices/transaction-service/src/main/java/com.akentech.kbf.transaction/service/TransactionService.java
